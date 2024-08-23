@@ -1,0 +1,108 @@
+.sidebar {
+  min-width: 220px;
+  max-width: 220px;
+  background-color: #f7f9fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: max-width 0.3s ease, min-width 0.3s ease;
+
+  .sidebar-links-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+
+    .sidebar-link {
+      width: 100%;
+      padding: 15px 20px;
+      border-bottom: 1px solid #eaeaea;
+      cursor: pointer;
+      color: #6a6c6f;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.09em;
+      font-size: 13px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      transition: padding 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+
+      .sidebar-icon {
+        margin-right: 8px;
+        margin-left: 0;
+        transition: margin-right 0.3s ease, margin-left 0.3s ease;
+      }
+
+      .sidebar-text {
+        opacity: 1;
+        transition: opacity 0.3s ease;
+        white-space: nowrap;
+      }
+    }
+
+    .sidebar-link:hover,
+    .sidebar-link.active,
+    .sidebar-link:focus {
+      background-color: #ffffff;
+      text-decoration: none;
+      color: #6a6c6f;
+    }
+  }
+
+  .sidebar-links-container:first-child {
+    border-top: 1px solid #eaeaea;
+  }
+
+  .sidebar-links-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  .sidebar-links-container::-webkit-scrollbar-thumb {
+    background-color: #e1e1e9;
+    border-radius: 3px;
+  }
+
+  .sidebar-links-container::-webkit-scrollbar-thumb:hover {
+    background-color: #b1b1b9;
+  }
+
+  .sidebar-links-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  .sidebar-links-container::-webkit-scrollbar-track:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+.sidebar.hidden {
+  min-width: 50px;
+  max-width: 50px;
+
+  .sidebar-link {
+    padding: 15px 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+    .sidebar-icon {
+      margin-right: 0;
+      margin-left: 4px;
+    }
+
+    .sidebar-text {
+      opacity: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      transition: opacity 0.3s ease, width 0.3s ease;
+    }
+  }
+
+  .sidebar-link:hover,
+  .sidebar-link.active,
+  .sidebar-link:focus {
+    background-color: rgba(59, 183, 66, 0.2);
+    color: #3bb742;
+  }
+}

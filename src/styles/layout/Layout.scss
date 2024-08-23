@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  @media (max-width: 1024px) {
+    overflow-x: auto;
+  }
+
+  .dashboard {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .dashboard.toggled {
+    @media (max-width: 1024px) {
+      width: fit-content;
+      min-width: 100%;
+    }
+  }
+
+  .content-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "jobTitle": "Software Engineer",
+    "companyName": "Tech Solutions Inc.",
+    "appliedOn": "2024-08-01",
+    "resumeCover": "Yes",
+    "user": "John Doe",
+    "email": "john.doe@example.com",
+    "admin": "Approved",
+    "failReason": null
+  },
+  {
+    "jobTitle": "Project Manager",
+    "companyName": "Innovatech",
+    "appliedOn": "2024-07-28",
+    "resumeCover": "No",
+    "user": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "admin": "Rejected",
+    "failReason": "Insufficient experience"
+  },
+  {
+    "jobTitle": "Data Analyst",
+    "companyName": "DataWise",
+    "appliedOn": "2024-07-30",
+    "resumeCover": "Yes",
+    "user": "Emily Johnson",
+    "email": "emily.johnson@example.com",
+    "admin": "Pending",
+    "failReason": null
+  },
+  {
+    "jobTitle": "Marketing Specialist",
+    "companyName": "Creative Agency",
+    "appliedOn": "2024-08-02",
+    "resumeCover": "Yes",
+    "user": "Michael Brown",
+    "email": "michael.brown@example.com",
+    "admin": "Approved",
+    "failReason": null
+  },
+  {
+    "jobTitle": "UX Designer",
+    "companyName": "DesignPro",
+    "appliedOn": "2024-08-04",
+    "resumeCover": "No",
+    "user": "Anna Lee",
+    "email": "anna.lee@example.com",
+    "admin": "Pending",
+    "failReason": null
+  },
+  {
+    "jobTitle": "Backend Developer",
+    "companyName": "CloudBase",
+    "appliedOn": "2024-07-25",
+    "resumeCover": "Yes",
+    "user": "David Wilson",
+    "email": "david.wilson@example.com",
+    "admin": "Rejected",
+    "failReason": "Missing portfolio"
+  },
+  {
+    "jobTitle": "Sales Executive",
+    "companyName": "Market Masters",
+    "appliedOn": "2024-08-05",
+    "resumeCover": "Yes",
+    "user": "Sarah Adams",
+    "email": "sarah.adams@example.com",
+    "admin": "Approved",
+    "failReason": null
+  },
+  {
+    "jobTitle": "Customer Support",
+    "companyName": "SupportHub",
+    "appliedOn": "2024-07-27",
+    "resumeCover": "No",
+    "user": "Chris Evans",
+    "email": "chris.evans@example.com",
+    "admin": "Rejected",
+    "failReason": "Poor communication skills"
+  },
+  {
+    "jobTitle": "Business Analyst",
+    "companyName": "Enterprise Corp",
+    "appliedOn": "2024-08-03",
+    "resumeCover": "Yes",
+    "user": "Katie Walker",
+    "email": "katie.walker@example.com",
+    "admin": "Pending",
+    "failReason": null
+  },
+  {
+    "jobTitle": "Front-End Developer",
+    "companyName": "WebWorks",
+    "appliedOn": "2024-08-01",
+    "resumeCover": "Yes",
+    "user": "Luke Davis",
+    "email": "luke.davis@example.com",
+    "admin": "Approved",
+    "failReason": null
+  }
+]
